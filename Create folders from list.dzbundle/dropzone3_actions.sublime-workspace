@@ -1,0 +1,344 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"line",
+				"line_items"
+			],
+			[
+				"read",
+				"read_text"
+			],
+			[
+				"create",
+				"create_folder"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "action.py",
+			"settings":
+			{
+				"buffer_size": 1616,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 147.0,
+		"last_filter": "sort",
+		"selected_items":
+		[
+			[
+				"sort",
+				"Sort Lines"
+			],
+			[
+				"conver",
+				"Convert Case: Upper Case"
+			],
+			[
+				"mark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/larsschulz/Dropbox/Jobs Active/GIZ/Python Zotero/Project Workspace/zotero.py",
+		"/Users/larsschulz/Library/Application Support/Dropzone 3/Actions/Symlink Volume.dzbundle/action.py",
+		"/Users/larsschulz/Dropbox/Jobs Active/Repositories/dropzone3_actions/Create folders from list.dzbundle/action.py",
+		"/Users/larsschulz/Desktop/Testfolder 1/folders.txt",
+		"/Users/larsschulz/Dropbox/Jobs Active/GIZ/GIZ ACSE Project/2-Development/Deliverables/folders.txt",
+		"/Users/larsschulz/Dropbox/Jobs Active/Diverse Projekte/15-X01 Spektrum Kompakt/1-Entwicklung/Produktionsumgebung einrichten/Datenbasis/saxon-java-comandline.txt",
+		"/Users/larsschulz/Dropbox/Jobs Active/GIZ/Python Zotero/Project Workspace/zotero_api/out.txt",
+		"/Users/larsschulz/Dropbox/Jobs Active/GIZ/GIZ ACSE Project/3-Communication/15-09-08 <- Flags/Flags",
+		"/Users/larsschulz/Dropbox/Jobs Active/Lars/LS-1503 Python Zotero/Project Workspace/zotero.py",
+		"/Users/larsschulz/Dropbox/Jobs Active/Lars/LS-1503 Python Zotero/Pelican/pelicanconf.py",
+		"/Users/larsschulz/Dropbox/Jobs Active/Lars/LS-1503 Python Zotero/Pelican/develop_server.sh",
+		"/Users/larsschulz/Dropbox/Jobs Active/Lars/LS-1503 Python Zotero/Pelican/publishconf.py",
+		"/Users/larsschulz/Dropbox/Jobs Active/Lars/LS-1503 Python Zotero/Pelican/content/15-09-04 test.md",
+		"/Users/larsschulz/Library/Containers/com.aptonic.Dropzone3/Data/Library/Application Support/Dropzone/Actions/Test.dzbundle/action.py",
+		"/Users/larsschulz/Library/Containers/com.aptonic.Dropzone3/Data/Library/Application Support/Dropzone/Actions/Python test.dzbundle/action.py",
+		"/Users/larsschulz/Dropbox/Jobs Active/Assa Abloy EMEA/AE-1501 eCliq/2-Entwicklung/Markets/Market Assets/TESA/Brand info - Tesa.txt",
+		"/Users/larsschulz/Dropbox/Jobs Active/Lars/Wohnung vermieten/Bedienungsanleitung - 2015.md",
+		"/Users/larsschulz/Desktop/S+B Preislisten.markdown",
+		"/Users/larsschulz/Dropbox/Jobs Active/Studium/WS 14-15/VP BR Flusslandschaft Elbe/TU1402 Pflegekonzept Kopfweiden/2-Kommunikation/15-08-01 -> Datenübergabe/Kataster Kopfweiden/Kopfweiden Kataster_Delivery.qgs",
+		"/Users/larsschulz/Dropbox/Lib/Easycatalog Sources CC/Assa Abloy/AA-Produktdaten/Data/Data Sources/_Ausfuehrungen/Data/Datasource.xml",
+		"/Users/larsschulz/Dropbox/Apps/Plain.txt/2015-07-27 10:01.txt",
+		"/Users/larsschulz/Downloads/6703537-a552c7c03b4a18518bb88245dfcb2907f4265596/sublime-text-osx-context-menu.md",
+		"/Users/larsschulz/Dropbox/Jobs Active/Studium/WS 14-15/VP BR Flusslandschaft Elbe/TU1402 Pflegekonzept Kopfweiden/1-Entwicklung/Kartierung und GIS/Data/Tablets/Sqlite_Queries.sql",
+		"/Users/larsschulz/Desktop/Annotations.md.txt",
+		"/Users/larsschulz/Desktop/Art",
+		"/Users/larsschulz/Dropbox/Jobs Active/Studium/WS 14-15/VP BR Flusslandschaft Elbe/TU1402 Pflegekonzept Kopfweiden/1-Entwicklung/Datenanalyse/Group Stats/Statistics_UQZ1.csv",
+		"/Users/larsschulz/Dropbox/Jobs Active/Studium/WS 14-15/VP BR Flusslandschaft Elbe/TU1402 Pflegekonzept Kopfweiden/1-Entwicklung/Datenanalyse/Group Stats/Statistics_UQZ5.csv",
+		"/Users/larsschulz/Dropbox/Jobs Active/Studium/WS 14-15/VP BR Flusslandschaft Elbe/TU1402 Pflegekonzept Kopfweiden/1-Entwicklung/Datenanalyse/Group Stats/Statistics_UQZ4.csv",
+		"/Users/larsschulz/Dropbox/Jobs Active/Studium/WS 14-15/VP BR Flusslandschaft Elbe/TU1402 Pflegekonzept Kopfweiden/1-Entwicklung/Datenanalyse/Group Stats/Statistics_UQZ3.csv",
+		"/Users/larsschulz/Dropbox/Jobs Active/Studium/WS 14-15/VP BR Flusslandschaft Elbe/TU1402 Pflegekonzept Kopfweiden/1-Entwicklung/Datenanalyse/Group Stats/Statistics_UQZ2.csv",
+		"/Users/larsschulz/Library/Application Support/com.toketaware.ithoughtsx/_unpack/138B98FC-08E7-432F-BD58-139CDB1200D7.unpack/previewme.markdown",
+		"/Users/larsschulz/Desktop/Entwurf",
+		"/Users/larsschulz/Dropbox/Jobs Active/Studium/SS 15/WP39 GIS/2-Entwicklung/Remote sensing/1-Dokumentation/Log/project-log.md",
+		"/Users/larsschulz/Dropbox/Jobs Active/Studium/WS 14-15/VP BR Flusslandschaft Elbe/TU1402 Pflegekonzept Kopfweiden/0-Dokumentation/project-log.txt",
+		"/Users/larsschulz/Desktop/Test.text",
+		"/Users/larsschulz/Dropbox/Jobs Active/Assa Abloy EMEA/AE-1501 eCliq/1-Dokumentation/Briefing.md",
+		"/Users/larsschulz/Dropbox/Jobs Active/Studium/Administration/Praktikum vorbereiten/Anschreiben - Organizations.text",
+		"/Users/larsschulz/Dropbox/Jobs Active/Repositories/project-timeline/_posts/2013-07-13-initial-contact.md",
+		"/Users/larsschulz/Desktop/InDesign CC 2014/install.txt",
+		"/Users/larsschulz/Desktop/InDesign CC 2014/use this",
+		"/Users/larsschulz/ownCloud/clientsync/Kartierung und GIS/IntraMaps Projects/project.config",
+		"/Users/larsschulz/ownCloud/clientsync/Kartierung und GIS/IntraMaps Projects/__init__.py",
+		"/Users/larsschulz/Dropbox/Jobs Active/Studium/WS 14-15/VP BR Flusslandschaft Elbe/TU1402 Pflegekonzept Kopfweiden/1-Entwicklung/Datenmodell entwickeln/Sqlite_Queries.sql",
+		"/Users/larsschulz/Dropbox/Jobs Active/Studium/WS 14-15/VP BR Flusslandschaft Elbe/TU1402 Pflegekonzept Kopfweiden/1-Entwicklung/Kartierung und GIS/Config/Config.py",
+		"/Users/larsschulz/Dropbox/Jobs Active/Studium/WS 14-15/VP BR Flusslandschaft Elbe/TU1402 Pflegekonzept Kopfweiden/1-Entwicklung/Datenmodell entwickeln/Database Design_v1.sql",
+		"/Users/larsschulz/Desktop/Schema/Produkte.sql",
+		"/Users/larsschulz/Dropbox/Lib/Easycatalog Sources CC/Assa Abloy/AA-Produktdaten/Data/Data Sources/_Ausfuehrungen/Data/Fields.xml",
+		"/Users/larsschulz/Dropbox/Lib/Easycatalog Sources CC/Assa Abloy/AA-S_B/Data/datasource.xml",
+		"/Users/larsschulz/Dropbox/Jobs Active/Studium/WS 14-15/VP BR Flusslandschaft Elbe/TU1402 Pflegekonzept Kopfweiden/1-Entwicklung/Datenmodell entwickeln/Attributtabelle 15-05-04.csv",
+		"/Users/larsschulz/Dropbox/Jobs Active/Studium/WS 14-15/VP BR Flusslandschaft Elbe/TU1402 Pflegekonzept Kopfweiden/1-Entwicklung/Datenmodell entwickeln/Sql_strings.sql",
+		"/Users/larsschulz/Desktop/ADOBE_ILLUSTRATOR_CC_V2014_MULTI_MACOSX-XFORCE/install.txt",
+		"/Users/larsschulz/Dropbox/Jobs Active/Diverse Projekte/12-X05 Spektrum/1-Entwicklung/Produktionsumgebung einrichten/Datenbasis/saxon-java-comandline.txt",
+		"/Users/larsschulz/Dropbox/Jobs Active/Studium/WS 14-15/VP BR Flusslandschaft Elbe/TU1402 Pflegekonzept Kopfweiden/1-Entwicklung/Kartierung und GIS/Dokumentation/15-04-17 Wehrenberg.text",
+		"/Users/larsschulz/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/larsschulz/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/larsschulz/Dropbox/Jobs Active/Studium/Administration/Studienverlauf dokumentieren/Studienleistungen.text",
+		"/Users/larsschulz/Library/Containers/com.boundlessgeo.postgis/Data/Library/Application Support/PostGIS/postgis_log.txt",
+		"/Users/larsschulz/Desktop/postgis.sql",
+		"/Users/larsschulz/Dropbox/Jobs Active/Landvergnügen/_Datenbank/queries.sql",
+		"/Users/larsschulz/Dropbox/Jobs Active/Studium/WS 14-15/VP Flusslandschaft Elbe/Aufgaben/Aufgabe 3 - Messkonzept/r_dev_messkonzept/data/DWD/Seehausen/stundenwerte_FF_04642_akt/produkt_wind_Terminwerte_20131206_20150105_04642.txt",
+		"/Volumes/Daten 1TB/App Images/Adobe Photoshop Lightroom 5.3 Final Mac OS X [ChingLiu]/ChingLiu.Install.Notes.txt",
+		"/Users/larsschulz/Downloads/Oxygen XML Editor 14.0/Oxygen.XML.Editor.v14.0.MacOSX.Incl.Keygen.and.Patch-FALLEN/fallen.nfo",
+		"/Users/larsschulz/Desktop/link.txt",
+		"/Users/larsschulz/Desktop/Erdas Imagine/Cracks/ERDAS CRACK 2014/readme.nfo",
+		"/Users/larsschulz/Desktop/Erdas Imagine/Cracks/Intergraph.lic",
+		"/Users/larsschulz/Desktop/Erdas Imagine/Crack of ERDAS IMAGINE 2014/readme.nfo",
+		"/Users/larsschulz/Downloads/Crack of ERDAS IMAGINE 2014/readme.nfo",
+		"/Users/larsschulz/Dropbox/Lib/30E5FC80.asc",
+		"/Users/larsschulz/Library/Containers/com.apple.mail/Data/Library/Mail Downloads/F0D3DB22.asc",
+		"/Users/larsschulz/Desktop/F37EC6DD.asc",
+		"/Applications/TorBrowser.app/TorBrowser/Data/Tor/torrc",
+		"/Users/larsschulz/Dropbox/Jobs Active/Repositories/kirby_starterkit/site/config/config.php",
+		"/Users/larsschulz/Dropbox/Jobs Active/Studium/WS 14-15/WP24 Bodenökologie/Aufgaben/Klausurvorbereitung/Fragen",
+		"/Users/larsschulz/Desktop/untitled.md",
+		"/Users/larsschulz/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap"
+	],
+	"find":
+	{
+		"height": 29.0
+	},
+	"find_in_files":
+	{
+		"height": 120.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"str",
+			"mytext",
+			"drop",
+			"data",
+			"line_items",
+			"objects",
+			"	",
+			"TR",
+			"_",
+			" ",
+			"THEME",
+			"\"REGEX:.%2b=%e2%80%a2;\"",
+			"REGEX:",
+			"REGEX:.+=•;",
+			"/Astdurchmesser",
+			"Astdurchmesser",
+			"Bestandserhe",
+			"someTable",
+			"REGEX:.%2b=%e2%80%93;",
+			"REGEX",
+			"varchar2(100)",
+			"UTF",
+			"\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"my_text",
+			"dati",
+			"data",
+			"line_items",
+			" ",
+			"\\ ",
+			"%20",
+			"_",
+			"\"#REGEX:.%2b=%e2%80%a2;\"",
+			"Bäume",
+			"REGEX:.%2b=%e2%80%a2;",
+			"TEXT",
+			" "
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "action.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1616,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "dropzone3_actions.sublime-project",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

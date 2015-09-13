@@ -4,7 +4,7 @@
 # Handles: Files, Text
 # Creator: Lars
 # URL: www.systemic.de
-# Events: Dragged 
+# Events: Dragged, Clicked
 # ---- Clicked disabled
 # KeyModifiers: Command, Option, Control, Shift
 # SkipConfig: No
@@ -16,24 +16,33 @@
 import time
 import os, sys
 
-# globals
+#----------------------------------------------------------------------------------------------
+# globals 
+#----------------------------------------------------------------------------------------------
+
 dir = "/Users/larsschulz/Desktop"
 text = ""
 data = ""
 
+#----------------------------------------------------------------------------------------------
+# helper functions
+#----------------------------------------------------------------------------------------------
 
-# helpers
 def my_dir():
-	'''Get the path'''
-	global dir
-	# https://docs.python.org/2/library/os.path.html
-	dir = os.path.dirname( items[0] )
-	print dir
+    '''Get the path'''
+    global dir
+    # https://docs.python.org/2/library/os.path.html
+    dir = os.path.dirname( items[0] )
+    print dir
+
+def cleanup():
+    # TODO implement
+    global data
+
 
 def read_text_clip():
-    global text
-    text = dz.read_clipboard()
-    print text
+    global data
+    data = dz.read_clipboard().splitlines()
 
 def read_text():
     global data, text
@@ -42,11 +51,9 @@ def read_text():
     print "data: ", data
     print "data 1: ", data[0]
 
+
 def create_folder():
     global data
-        
-    my_dir()
-    read_text()
     count = 1
 
     for data in data:
@@ -60,20 +67,27 @@ def create_folder():
         print current_name
         if not os.path.exists(current_name):
             os.makedirs(current_name)
+#----------------------------------------------------------------------------------------------
+#  Actions
+#----------------------------------------------------------------------------------------------
 
-# Function for dragged text
 def dragged():
-    # Notify action
-    dz.begin("Creating folders")
-
-    # Do Action 
+    # Do Action
+    my_dir()
+    read_text()
     create_folder()
 
     # Notify completion
-    dz.finish("Folders created")
+    dz.finish("Folders created.")
  
 def clicked():
-    # TODO: Use clipboard content for folder creation
-    print dz.read_clipboard()
-    dz.finish("Drop textfile onto action!")
+    global dir
+    # TODO: Set dir dynamically at finder selection
+
+    # Use clipboard content for folder creation
+    read_text_clip()
+    create_folder()
+
+    # Notify completion
+    dz.finish("Folders created from clipboard.")
     dz.url(False)
