@@ -16,19 +16,29 @@
 import time
 import os, sys
 
-# globals
+#----------------------------------------------------------------------------------------------
+# globals 
+#----------------------------------------------------------------------------------------------
+
 dir = "/Users/larsschulz/Desktop"
 text = ""
 data = ""
 
+#----------------------------------------------------------------------------------------------
+# helper functions
+#----------------------------------------------------------------------------------------------
 
-# helpers
 def my_dir():
-	'''Get the path'''
-	global dir
-	# https://docs.python.org/2/library/os.path.html
-	dir = os.path.dirname( items[0] )
-	print dir
+    '''Get the path'''
+    global dir
+    # https://docs.python.org/2/library/os.path.html
+    dir = os.path.dirname( items[0] )
+    print dir
+
+def cleanup():
+    # TODO implement
+    global data
+
 
 def read_text_clip():
     global data
@@ -40,6 +50,7 @@ def read_text():
     data = text.read().splitlines()
     print "data: ", data
     print "data 1: ", data[0]
+
 
 def create_folder():
     global data
@@ -56,6 +67,9 @@ def create_folder():
         print current_name
         if not os.path.exists(current_name):
             os.makedirs(current_name)
+#----------------------------------------------------------------------------------------------
+#  Actions
+#----------------------------------------------------------------------------------------------
 
 def dragged():
     # Do Action
